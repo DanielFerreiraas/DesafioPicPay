@@ -1,4 +1,4 @@
-package com.picpaysimplificado.services;
+package com.picpaysimplificado.services.transactionService;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.times;
@@ -22,7 +22,6 @@ import com.picpaysimplificado.dtos.transaction.TransactionDTO;
 import com.picpaysimplificado.repositories.transactionRepository.TransactionRepository;
 import com.picpaysimplificado.services.authorizationService.AuthorizationService;
 import com.picpaysimplificado.services.notificationService.Notificationservice;
-import com.picpaysimplificado.services.transactionService.TransactionService;
 import com.picpaysimplificado.services.userService.UserService;
 
 class TransactionServiceTest {
