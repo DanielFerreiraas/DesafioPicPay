@@ -25,7 +25,7 @@ class UserRepositoryTest {
     UserRepository userRepository;
 
     @Test
-    @DisplayName("Shold get User successfully from db")
+    @DisplayName("Should get User successfully from db")
     void findUserByDocument() {
         String document = "99999999901";
         UserDTO data = new UserDTO(
